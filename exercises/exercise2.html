@@ -3,25 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercicios</title>
     <style>
         body {
-            background-color: rgb(69, 126, 107);
-            color: rgb(83, 83, 151);
-            font: normal 20pt Arial;
+            background-color: black;
+            margin: 10px 5px 5px 0px;
+            font-family: Arial;
+            font-size: 10pt;
+            color: white;
         }
-        h1 {
-            color: rgb(92, 37, 37);
+        body#letras p#sec {
+            text-align: center;
+            font-style: italic;
         }
-    
+        body#letras p#third {
+            color: black;
+            text-align: right;
+            background-color: white;
+            margin: 0px 0px 0px 0px;
+        }
+        a {
+            font-weight: bolder;
+            color: rgb(93, 231, 93);
+        }
+        a:hover {
+            color: yellow;
+        }
+        m {
+            background-color: blue;
+            color: white;
+        }
+        n {
+            background-color: red;
+            color: white;
+        }
+
     </style>
 </head>
-<body>
-    <h1>Olá, mundo! </h1>
-    <p>Estou salvo.</p>
-    <script>
-        var nome = window.prompt('Qual é o seu nome ?') // Janela de input
-        window.alert('É um grande prazer em te conhecer, '+nome)
-    </script>
+<body id ='letras'>
+    <p id ='first'>Um paragrafo simples sem <a href='https://pt.wikipedia.org/wiki/Serifa'>serifa</a></p>
+
+    <p id='sec'>Um paragrafo itálico e centralizado</p>
+
+    <s style="color: black">
+    <p id='third'> E <m>por</m> fim, alinhado a <n>direita</n>!</p>
+    </s>
 </body>
 </html>
