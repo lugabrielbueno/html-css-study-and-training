@@ -6,24 +6,41 @@
     <title>Document</title>
     <style>
         body {
-            background-color: rgb(69, 126, 107);
-            color: rgb(83, 83, 151);
-            font: normal 20pt Arial;
+            background-image: url(neon.jpg);
+            background-repeat: no-repeat;
+            background-size: 1366px 450px;
+            background-color: black;
         }
-        h1 {
-            color: rgb(92, 37, 37);
+        p#um {
+            background-color: rgba(0,0,0,0.4);
+            padding-top: 1%;
+            padding-bottom: 1%;
+            text-align: center;
+            margin: -10px -10px -10px -10px;
+            font-family: Helvetica;
+            font-size: 20pt;
+            color: white;
         }
-    
+        p {
+            font-family: Helvetica;
+            font-size: 20pt;
+            color: white
+        }
+        a {
+            color: chartreuse;
+        }
+        a:hover {
+            color: darkgoldenrod;
+        }
     </style>
+
 </head>
 <body>
-    <h1>Olá, mundo! </h1>
-    <p>Estou salvo.</p>
-    <script>
-        var n1 = window.prompt('Digite um número: ')
-        var n2 = window.prompt('Digite outro número ')
-        var s = Number(n1) + Number(n2)
-        window.alert(`A soma entre ${n1} e ${n2} é  ${s}`)
-    </script>
+    <p id='um'>A imagem foi obtida aqui:<br> <a href='https://br.freepik.com/vetores-gratis/fundo-de-palco-iluminado-neon_5529287.htm#page=1&query=fundo&position=1'>https://br.freepik.com/vetores-gratis/fundo-de-palco-iluminado-neon_5529287.htm#page=1&query=fundo&position=1</a><br>Esse parágrafo tem espaçamento intern de 10pt e utiliza um fonte de 20pt</p>
+    <p>Parágrafo 2</p>
+    <p>Parágrafo 3</p>
+    <p>Parágrafo 4</p>
+    <p>Parágrafo 5</p>
+    <p id='um'>*Redimensione a janela ou mova as barras de rolagem</p>
 </body>
 </html>
