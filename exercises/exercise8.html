@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p#first {
+            border-style: solid;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: solid 0.6mm;
+            background-color: rgb(85, 168, 223);
+            font-size: 20pt;
+            font-family: 'Courier New';
+            font-weight: bolder;
+            margin: -8px ;
+            padding: -5px ;
+        }
+        p#second {
+            margin:8px -8px 0px -8px;
+            border-style: solid;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: solid 0.1mm;
+            background-color: rgb(85, 168, 223);
+            font-size: 20pt;
+            font-family: 'Courier New';
+            font-weight: bolder;
+        }
+        span {
+            font-size: 8pt;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <p id='first'>Um parágrafo com 3 span: <sup><sup><span id='a'>Span A</span></sup></sup>, <sup><span id='b'>Span B</span></sup>, <sub><span id='c'>Span C</span></sub></p>
+    <p id='second'>*A fonte do parágrafo tem 20pt e a dos span tem 10pt</p>
+</body>
+</html>
