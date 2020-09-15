@@ -16,6 +16,11 @@ div.menu a{
     font-weight: 600;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+div.menu a:hover{
+    text-decoration: underline ;
+    color: rgb(167, 167, 167);
+    transition: 0.3s;
+}
 aside {
     padding-left: 40px;
     float: left;
