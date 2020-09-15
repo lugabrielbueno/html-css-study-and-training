@@ -1,0 +1,14 @@
+div.menu{
+    width: 80%;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+
+}
+div.menu a{
+    color: red;
+    padding: 10px;
+    font-size: 14pt;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
