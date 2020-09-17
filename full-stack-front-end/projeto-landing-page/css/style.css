@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.topo{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(100, 207, 226);
+}
+.topo img {
+    height: 60px;
+    width: 15%;
+}
+.containner-banner{
+    width: 100%;
+    height: 550px;
+    background-image: url('../images/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.form{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    border: solid 2px  rgb(50,100,103);
+    border-radius: 3px;
+    
+}
+ul {
+    background-color: rgba(1, 114, 134, 0.7);
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    top: 22%;
+    left: 7%;
+    border-radius: 10px;
+}
+li{
+    color:white;
+    font-size: 18pt;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
