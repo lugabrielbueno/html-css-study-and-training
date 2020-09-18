@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
@@ -14,12 +15,29 @@
     <div class='containner-banner'>
         <div class="center">
             <div class="form">
+                <h2>Preencha o formulario e nos ajuda a melhorar</h2>
                 <form action="">
-                    <input type="text" name="nome" id="nome">
-                    <input type="text" email="email" id="email">
-                    <input type="textarea" name='msg' id="msg">
+                    <div class="input-containner">
+                        <span>Nome *</span>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome..." required>
+                    </div> <!---input-containner-->
+                    
+                    <div class="input-containner">
+                        <span>Email *</span>
+                        <input type="text" name="email" id="email" placeholder="Digite seu email..." required>
+                    </div> <!---input-containner-->
+                    
+                    <div class="input-containner">
+                        <span>Mensagem *</span>
+                        <input type="text" name="msg" id="msg" placeholder="Mensagem..." required>
+                    </div> <!---input-containner-->
+
+                    <div class="input-containner">
+                        <input type="submit" name="nome" id="enviar" placeholder="Digite seu nome..." required>
+                    </div> <!---input-containner-->
                 </form>
             </div>
+
             <div class="topicos">
                 <ul>
                     <li>Desenvolvimento de Web Sites</li>
@@ -30,6 +48,56 @@
         </div>
     </div><!--containner-banner-->
 
+
+    <div class="containner-final">
+        <div class="center">
+            <h2>Lorem Ipsum</h2>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque urna nunc, maximus vel leo eu, pellentesque euismod tortor. Fusce id ante sed urna pulvinar porttitor a non erat. Proin molestie urna ut blandit tincidunt. Pellentesque lobortis est nisl, at accumsan arcu tempor et. Donec sagittis in sem ac interdum. Donec in est in dolor dignissim laoreet nec a justo. Mauris semper justo urna, eget ultrices felis suscipit at. Sed consequat dui tortor, vel aliquet turpis sollicitudin eu. Mauris sit amet placerat est, id rutrum sem. Vestibulum malesuada dui non convallis eleifend. Mauris posuere molestie rhoncus.
+            </p>
+        </div><!--center-->
+        <div class='arrow'></div><!--arrow-->
+
+
+        <div class="section-1">
+            <h2>A cara do seu negócio nas mãos de quem entende</h2>
+            <div class="containner-section">
+
+                <div class="containner-single">
+                    <div><img src="images/pc.png" alt=""></div>
+                    <div class="text-containner-single">
+                        <h2>Lorem Ipsum</h2>
+                        <p>
+                            Proin at massa magna. Etiam ut interdum elit, id venenatis ex. Nunc lectus mi, semper a est tempus, mollis molestie neque. Sed velit justo, lobortis sit amet Vestibulum commodo mollis est vel faucibus. Aliquam tincidunt augue sed dolor posuere ultricies eget finibus nisi. Vestibulum porta, nisi in laoreet laoreet, augue odio ultricies est, nec sagittis tellus tellus euismod purus.
+                        </p>
+                    </div><!--text-containner-single-->
+                </div><!--containner-single-->
+
+
+                <div class="containner-single">
+                    <div><img src="images/pc.png" alt=""></div>
+                    <div class="text-containner-single">
+                        <h2>Lorem Ipsum</h2>
+                        <p>Proin at massa magna. Etiam ut interdum elit, id venenatis ex. Nunc lectus mi, semper a est tempus, mollis molestie neque. Sed velit justo, lobortis sit amet Vestibulum commodo mollis est vel faucibus. Aliquam tincidunt augue sed dolor posuere ultricies eget finibus nisi. Vestibulum porta, nisi in laoreet laoreet, augue odio ultricies est, nec sagittis tellus tellus euismod purus.</p>
+                    </div><!--text-containner-single-->
+                </div><!--containner-single-->
+
+
+                <div class="containner-single">
+                    <div><img src="images/pc.png" alt=""></div>
+                    <div class="text-containner-single">
+                        <h2>Lorem Ipsum</h2>
+                        <p>
+                            Proin at massa magna. Etiam ut interdum elit, id venenatis ex. Nunc lectus mi, semper a est tempus, mollis molestie neque. Sed velit justo, lobortis sit amet Vestibulum commodo mollis est vel faucibus. Aliquam tincidunt augue sed dolor posuere ultricies eget finibus nisi. Vestibulum porta, nisi in laoreet laoreet, augue odio ultricies est, nec sagittis tellus tellus euismod purus.
+                        </p>
+                    </div><!--text-containner-single-->
+                </div><!--containner-single-->
+
+
+            </div><!--containner-section-->
+        </div><!---section-1-->
+
+    </div><!--containner-final-->
 
 </body>
 </html>

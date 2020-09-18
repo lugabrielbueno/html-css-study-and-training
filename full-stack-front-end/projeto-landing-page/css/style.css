@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Roboto;
 }
 .topo{
     width: 100%;
@@ -8,40 +9,141 @@
     background-color: rgb(100, 207, 226);
 }
 .topo img {
-    height: 60px;
-    width: 15%;
+        height: 60px;
+        width: 15%;
+        margin: 15px;
 }
 .containner-banner{
     width: 100%;
-    height: 550px;
+    height: 700px;
     background-image: url('../images/banner2.jpg');
     background-position: center;
     background-size: cover;
 }
 .form{
     width: 35%;
-    height: 100%;
+    height: calc(100% +30px);
     background-color: rgb(255, 255, 255);
     position: absolute;
+    padding: 10px;
     top: 5%;
     left: 60%;
-    border: solid 2px  rgb(50,100,103);
+    border: solid 8px  rgb(50,100,103);
     border-radius: 3px;
     
 }
+form input[type=text]{
+    margin-top: 8px;
+    width: 80%;
+    height: 55px;
+    border: 1px solid #ccc;
+    text-align: center;
+
+}
+form input[type=text]:focus{
+    outline: unset;
+}
+form input[type=submit]{
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size:20px;
+    width: 45%;
+    height: 50px;
+    cursor:pointer;
+    background-color:rgba(10,121,141,0.9);
+}
+form input[type=submit]:hover{
+    background-color: rgba(2,100,120);
+}
 ul {
     background-color: rgba(1, 114, 134, 0.7);
-    width: 600px;
+    width: 45%;
     height: 250px;
     position: absolute;
     top: 22%;
-    left: 7%;
+    left: 3%;
     border-radius: 10px;
+    list-style-position: inside;
 }
 li{
     color:white;
-    font-size: 18pt;
+    font-weight: bold;
+    font-size: 18px;
     font-weight: 200;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
+    padding: 25px;
+}
+.form h2{
+    font-weight: normal;
+    color: #999999;
+    font-size: 20px;
+
+}
+
+.input-containner {
+    margin-top: 20px;
+    text-align: center;
+}
+.input-containner span{
+    display: inline-block;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+}
+.containner-final .center{
+    padding: 40px 0;
+    background-color: #ddd;
+    text-align: center;
+}
+.containner-final h2{
+    font-weight: normal;
+
+}
+.containner-final {
+    width: 100%;
+}
+.containner-final p{
+    width: 800px;
+    margin: 15px 0;
+    display: inline-block;
+    text-align: justify;
+}
+.arrow{
+    position: relative;
+    top: -20px;
+    left: 50%;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/arrow.png');
+    background-size: 100% 100%;
+}
+.section-1{
+    padding: 90px 0;
+
+}
+.section-1 h2{
+    text-align: center;
+    color: #264364;
+    font-weight: normal;
+    width: 100%;
+}
+.containner-section {
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+}
+.containner-single {
+    float: left;
+    width: 28%;
+    padding: 30px;
+}
+.containner-single img{
+    width: 80px;
+}
+.containner-single p{
+    text-align: justify;
+    padding: 10px 25px;
+    display: inline-block;
+    width: 85%;
+
 }
