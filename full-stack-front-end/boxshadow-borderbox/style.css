@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div.box {
+    text-align: center;
+}
+div.box img {
+    width: 40%;
+    box-shadow: 10px 13px 9px rgb(130,130,130);
+}
