@@ -70,7 +70,7 @@ img.icone-sobre {
 }
 div.links-uteis{
     text-align: center;
-
+    border-bottom: 2px solid;
 }
 
 div.links-uteis h2 {
@@ -109,10 +109,13 @@ ul.lista-links a{
 .atuacao {
     font-family: "Roboto",sans-serif;
 }
-.penal {
+.penal,.trabalhista,.consumidor,.civil,.contratos,.administrativo {
+    padding: 25px 0px;
     float: left;
     text-align: center;
+    width: 33.333%;
 }
-.penal h3 {
+div.atuacao h3 {
     font-weight: 200;
+    text-align: center;
 }
