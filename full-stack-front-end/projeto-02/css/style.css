@@ -2,47 +2,117 @@
     margin: 0px;
     padding: 0px;
 }
+header{
+    width: 100%;
+}
 .menu-principal{
-    background-color: rgba(100, 100, 100, 0.45);
+    background-color: rgba(65, 65, 65, 0.45);
     width: 100%;
     height: 25px;
     padding: 40px;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 550;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     position: fixed;
+    z-index: 15;
 
+    
 }
 
-a {
+.menu-principal a {
     color: white;
     text-decoration: none;
     padding: 0px 20px;
+
 }
-#sobre,#links,#contato,#localizacao {
+.menu-principal #sobre,#links,#contato,#atuacao,#localizacao {
     border-left: solid 1px;
 }
 .banner-um {
-    background-image: url("../images/advocacia.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
     width: 100%;
-    height: 562px;
+    height: 20%px;
+    border-bottom: 3px solid rgb(8, 8, 8);
 }
-header{
 
+div.principal{
+    background-color: rgb(255, 255, 255);
     width: 100%;
 }
-.sobrenos h2{
+div.sobrenos {
     font-family: 'Roboto',sans-serif;
-    font-weight: 200;
+    position: relative;
+    top: -20px;
     text-align: center;
 
 }
-.sobrenos p {
-    font-family: 'Roboto';
+div.sobrenos h2{
+    font-weight: 200;
+    padding: 5px;
+    width: 67%;
+    font-size: 30px;
+
 }
-.principal {
-    background-color: rgb(221, 221, 221);
+div.sobrenos p {
+    font-family: 'Roboto';
+    width: 68%;
+}
+
+img.icone-sobre {
+    margin-top: -10px;
+    width: 50px;
+    height: 50px;
+}
+.imagem-lateral-sobre{
+    float: right;
+    height: 9%;
+    width: 31%;
+}
+div.links-uteis{
+    text-align: center;
+
+}
+
+div.links-uteis h2 {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 200;
+    position: relative;
+    left: 0%;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 20px;
+}
+ul.lista-links li{
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+ul.lista-links li:hover{
+    font-size: 30px;
+    font-weight: 280;
+    background-color: rgb(151, 151, 151);
+    transition: 0.5s;
+}
+
+
+ul.lista-links a{
+    text-decoration: none;
+    color: black;
+}
+.atuacao h2{
+    margin-top: 45px ;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+}
+.atuacao {
+    font-family: "Roboto",sans-serif;
+}
+.penal {
+    float: left;
+    text-align: center;
+}
+.penal h3 {
+    font-weight: 200;
 }
