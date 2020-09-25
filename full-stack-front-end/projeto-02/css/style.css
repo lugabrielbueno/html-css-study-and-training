@@ -99,6 +99,11 @@ ul.lista-links a{
     text-decoration: none;
     color: black;
 }
+img.icone-links{
+    width: 50px;
+    height: 50px;
+    margin-bottom: -28px;
+}
 .atuacao h2{
     margin-top: 45px ;
     font-family: 'Roboto',sans-serif;
@@ -119,22 +124,70 @@ div.atuacao h3 {
     font-weight: 200;
     text-align: center;
 }
+.contato {
+    float: left;
+}
 .contato fieldset {
-    width: 45%;
+    width: 47%;
+    padding: 20px;
+    float: right;
+    box-shadow: 2px 2px 3px 3px slategray ;
 }
 .contato h2{
     font-family: 'Roboto',sans-serif;
     font-weight: 200;
-    text-align: center;
+    position: relative;
+    padding: 10px;
+    left: 70%;
+}
+div.contato img.fundo-form-img {
+    position: absolute;
+    opacity: 0.4;
+    margin-top: -20px;
+    right: 0%;
+    width: 18%;
+    height: 47%;
 }
 .contato form label{
     font-size: 20px;
     font-family: "Roboto",sans-serif;
 }
 .contato input{
-    font-size: 18px;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 100;
+
 }
-.contato input[textarea]{
-    width: 35%;
-    height: 25%;
+.contato input:focus{
+    outline: unset;
+}
+.contato textarea:focus{
+    outline: unset;
+}
+.form-group {
+    float: left;
+    padding: 5px;
+
+}
+.contato form label{
+    font-size: 16px;
+}
+.localizacao {
+    width: 48%;
+    float: left;
+    margin-top: -360px;
+    margin-left: 13%
+}
+.localizacao ul li{
+    padding: 5px;
+    font-size: 15px;
+    font-family: "Roboto",sans-serif;
+}
+.localizacao ul {
+    padding: 20px;
+    margin-top: 20px;
+}
+.localizacao h2{
+    font-family: "Roboto",sans-serif;
+    font-weight: 100;
 }
