@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 header{
     width: 100%;
@@ -202,4 +203,8 @@ fieldset div.form-group {
     text-align: center;
     font-family: 'Roboto',sans-serif;
     font-size: 14px;
+}
+
+.menu-principal a[href]:active{
+    transition: 5s;
 }
