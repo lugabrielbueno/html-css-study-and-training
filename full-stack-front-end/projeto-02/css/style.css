@@ -39,10 +39,10 @@ header{
 div.principal{
     background-color: rgb(255, 255, 255);
     width: 100%;
+    text-align: center;
 }
 div.sobrenos {
     font-family: 'Roboto',sans-serif;
-    position: relative;
     top: -20px;
     text-align: center;
 
@@ -60,7 +60,8 @@ div.sobrenos p {
 }
 
 img.icone-sobre {
-    margin-top: -10px;
+    margin-top: -20px;
+    margin-bottom: 20px;
     width: 50px;
     height: 50px;
 }
@@ -119,7 +120,7 @@ img.icone-links{
     padding: 25px 0px;
     float: left;
     text-align: center;
-    width: 33.333%;
+    width: 33%;
 }
 div.atuacao h3 {
     font-weight: 200;
@@ -207,4 +208,70 @@ fieldset div.form-group {
 
 .menu-principal a[href]:active{
     transition: 5s;
+}
+@media only screen and (max-width:500px){
+    nav menu.menu-principal{
+        display: none;
+    }
+    .imagem-lateral-sobre{
+        position: absolute;
+        display: none;
+    }
+    .sobrenos {
+        clear: both;
+        margin-top: 10px;
+        width: 100%;
+        padding: 5px;
+    }
+    .icone-sobre {
+        margin-top: -50px;
+    }
+    .sobrenos h2{
+        width: 100%;
+        margin-left: 80px;
+    }
+    .sobrenos p {
+        display: inline;
+        width: 100%;
+    }
+    .row{
+        width: 100%;
+        display: inline-block;
+    }
+    .penal img{
+        margin-top:10px;
+    }
+    .administrativo img{
+        margin-top: -15px;
+    }
+    .contratos img{
+        margin-top: 9px;
+    }
+    .trabalhista img{
+        margin-top: 5px;
+    }
+    .consumidor img{
+        margin-top: -10px;
+    }
+    .civil img{
+        margin-top: 10px;
+    }
+
+    .atuacao .penal,.administrativo,.contratos,.trabalhista,.civil,.consumidor{
+        width: 33.3%;
+    }
+    .atuacao h3{
+        padding: 20px 0;
+    }
+    .localizacao{
+        display: block;
+    }
+    .contato{
+        display: block;
+        margin: auto 5px auto 5px;
+        width: calc(100% - 190px);
+    }
+    .fundo-form-img{
+        display: none;
+    }
 }
